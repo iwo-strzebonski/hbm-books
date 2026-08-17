@@ -1,0 +1,32 @@
+# Secrets - never commit
+.env
+.env.*
+*.env
+gdrive-token.json
+client_secret*
+.thorclient/
+
+# Node
+node_modules/
+
+# Generated / compiled - regenerate via tools/
+NotebookLM_Uploads/
+.output/
+__pycache__/
+vault_analysis_report.json
+batch_gen.log
+scratch_images.txt
+Foundry-Data/data/books-cache.json
+
+# OS
+.DS_Store
+
+# Excluded from this repo for now (see cleanup notes)
+_books/
+fix_vault.py
+generate_mocs.py
+debug-parse.ts
+debug-spell.ts
+debug-walker.ts
+write_file_helper.py
+foundryvtt-admin/

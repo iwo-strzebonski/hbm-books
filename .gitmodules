@@ -1,0 +1,9 @@
+[submodule "Foundry-Data/foundry-lore"]
+	path = Foundry-Data/foundry-lore
+	url = https://git.octoturge.com/octoturge/hbm-foundry-lore.git
+[submodule "Foundry-Data/foundry-system"]
+	path = Foundry-Data/foundry-system
+	url = https://git.octoturge.com/octoturge/hbm-foundry-system.git
+[submodule "ObsidianNotes"]
+	path = ObsidianNotes
+	url = https://git.octoturge.com/octoturge/hbm-obsidian.git

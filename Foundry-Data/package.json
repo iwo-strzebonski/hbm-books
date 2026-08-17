@@ -1,0 +1,28 @@
+{
+  "name": "hbm-rpg-content-tools",
+  "version": "1.0.0",
+  "description": "Content creation tools for Homebrew Magic: Role Playing Game v3",
+  "type": "module",
+  "scripts": {
+    "hbm": "bun cli.js",
+    "gdrive:auth": "bun gdrive-client.js auth",
+    "gdrive:list": "bun gdrive-client.js list",
+    "gdrive:sync": "bun gdrive-client.js download",
+    "content:init": "bun content-manager.js init",
+    "search": "bun content-manager.js search"
+  },
+  "bin": {
+    "hbm": "./cli.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server-gdrive": "^2025.1.14",
+    "googleapis": "^170.0.0"
+  },
+  "keywords": [
+    "ttrpg",
+    "homebrew",
+    "rpg",
+    "content-creation"
+  ],
+  "license": "PRIVATE"
+}

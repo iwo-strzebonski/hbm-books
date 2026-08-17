@@ -1,0 +1,71 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "HbM: Main CLI",
+      "type": "shell",
+      "command": "bun",
+      "args": ["run", "hbm"],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "Google Drive: Authenticate",
+      "type": "shell",
+      "command": "bun",
+      "args": ["run", "gdrive:auth"],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "Google Drive: List Books",
+      "type": "shell",
+      "command": "bun",
+      "args": ["run", "gdrive:list"],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "Google Drive: Sync Books",
+      "type": "shell",
+      "command": "bun",
+      "args": ["run", "gdrive:sync"],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "Content: Initialize New",
+      "type": "shell",
+      "command": "bun",
+      "args": ["run", "content:init"],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "Content: Search Books",
+      "type": "shell",
+      "command": "bun",
+      "args": ["run", "search"],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    }
+  ]
+}
